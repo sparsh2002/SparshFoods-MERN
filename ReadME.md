@@ -1,0 +1,1 @@
+This is a restaurants review app made on MERN stack
