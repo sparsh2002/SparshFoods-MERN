@@ -1,5 +1,8 @@
 import mongodb from "mongodb"
+import dotenv from 'dotenv'
+dotenv.config()
 const ObjectId = mongodb.ObjectID
+// console.log(process.env.RESTREVIEWS_NS)
 let restaurants
 
 export default class RestaurantsDAO {
